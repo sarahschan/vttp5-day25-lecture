@@ -15,6 +15,12 @@ public class Todo {
     }
 
     
+    @Override
+    public String toString() {
+        return "Todo [id=" + id + ", taskName=" + taskName + "]";
+    }
+
+    
     public int getId() {
         return id;
     }
